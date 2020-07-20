@@ -1,6 +1,6 @@
 import numpy as np
-import discriminative.utils.vcl as vcl
-import discriminative.utils.coreset as coreset
+# import discriminative.utils.vcl as vcl
+# import discriminative.utils.coreset as coreset
 from ..discriminative.utils.DataGenerator import PermutedMnistGenerator
 
 hidden_size = [100, 100]
