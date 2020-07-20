@@ -1,8 +1,8 @@
 import numpy as np
-import discriminative.utils.test  as test
-from discriminative.utils.multihead_models import Vanilla_NN, MFVI_NN
+import utils.test  as test
+from utils.multihead_models import Vanilla_NN, MFVI_NN
 import torch
-import discriminative.utils.GAN as GAN
+import utils.GAN as GAN
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 try:
     from torchviz import make_dot, make_dot_from_trace
